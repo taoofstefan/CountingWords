@@ -173,5 +173,5 @@ counter = CountingWords()
 result = counter.count_words(data_set, filter=5)
 print(result)
 
-result_file = counter.count_words_from_files(r"C:/Users/stefa/OneDrive/Coding/Count Words/files/test.txt", filter=10)
+result_file = counter.count_words_from_files(r"test.txt", filter=10)
 print(result_file)
